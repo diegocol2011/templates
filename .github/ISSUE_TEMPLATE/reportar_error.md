@@ -6,11 +6,13 @@ labels: error
 assignees: ''
 ---
 
-## Descripción del problema
+### Descripción del problema
 
 Este formulario es para reportar errores únicamente. Si tienes una solicitud de función o mejora, por favor utiliza la sección de [solicitud de función][fr] en nuestras [Discusiones de GitHub][fr].
 
 [fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
+
+---
 
 ### Detalles del problema
 
@@ -26,17 +28,23 @@ Este formulario es para reportar errores únicamente. Si tienes una solicitud de
 
 *Ejemplo: Ubuntu 22.10, Debian, Arch...etc*
 
+---
+
 **Versión del Servidor de Immich**
 
 *Requerido*
 
 *Ejemplo: v1.0.0*
 
+---
+
 **Versión de la Aplicación Móvil de Immich**
 
 *Requerido*
 
 *Ejemplo: v1.0.0*
+
+---
 
 **Plataforma con el problema**
 
