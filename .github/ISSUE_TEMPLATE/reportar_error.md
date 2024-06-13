@@ -4,6 +4,8 @@ about: Reporte errores encontrados
 title: ''
 labels: bug
 assignees: 'HOLA'
+assignees: ''
+assignees: ''
 
 ---
 
