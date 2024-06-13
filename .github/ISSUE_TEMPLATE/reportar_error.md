@@ -1,82 +1,85 @@
-# Report an issue with Immich
+---
+name: Reportar Error
+about: Reporte errores encontrados
+title: ''
+labels: error
+assignees: ''
 
-This issue form is for reporting bugs only!
+## Descripción del problema
 
-If you have a feature or enhancement request, please use the [feature request][fr] section of our [GitHub Discussions][fr].
+Este formulario es para reportar errores únicamente. Si tienes una solicitud de función o mejora, por favor utiliza la sección de [solicitud de función][fr] en nuestras [Discusiones de GitHub][fr].
 
 [fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
 
-## The bug
+## Detalles del problema
 
-Describe the issue you are experiencing here, to communicate to the maintainers. Tell us what you were trying to do and what happened.
+**Describe el problema que estás experimentando aquí para comunicarlo a los mantenedores. Cuéntanos qué estabas intentando hacer y qué sucedió.**
 
-Provide a clear and concise description of what the problem is.
+## Entorno
 
-## Environment
+**Sistema Operativo donde se ejecuta el Servidor de Immich**
 
-**The OS that Immich Server is running on**
+*Requerido*
 
-*Required*
+*Ejemplo: Ubuntu 22.10, Debian, Arch...etc*
 
-*Placeholder: Ubuntu 22.10, Debian, Arch...etc*
+**Versión del Servidor de Immich**
 
-**Version of Immich Server**
+*Requerido*
 
-*Required*
+*Ejemplo: v1.0.0*
 
-*Placeholder: v1.0.0*
+**Versión de la Aplicación Móvil de Immich**
 
-**Version of Immich Mobile App**
+*Requerido*
 
-*Required*
+*Ejemplo: v1.0.0*
 
-*Placeholder: v1.0.0*
+**Plataforma con el problema**
 
-**Platform with the issue**
+*Requerido*
 
-*Required*
-
-- Server
+- Servidor
 - Web
-- Mobile
+- Móvil
 
-## Your docker-compose.yml content
+## Contenido de tu docker-compose.yml
 
-*Required*
+*Requerido*
 
-Render as: YAML
+Renderizado como: YAML
 
-## Your .env content
+## Contenido de tu archivo .env
 
-*Required*
+*Requerido*
 
-Please provide the redacted .env content of your setup
+Por favor proporciona el contenido redactado del archivo .env de tu configuración.
 
-Render as: Shell
+Renderizado como: Shell
 
-## Reproduction steps
+## Pasos de reproducción
 
-*Required*
+*Requerido*
 
-How do you trigger this bug? Please walk us through it step by step.
+¿Cómo provocas este error? Por favor descríbelo paso a paso.
 
 1. 
 2. 
 3. 
 ...
 
-Render as: bash
+Renderizado como: bash
 
-## Relevant log output
+## Salida relevante del registro
 
-*Optional*
+*Opcional*
 
-Please copy and paste any relevant logs below. (code formatting is enabled, no need for backticks)
+Por favor copia y pega cualquier salida de registro relevante a continuación. (La formateación de código está habilitada, no es necesario usar comillas inversas).
 
-Render as: shell
+Renderizado como: shell
 
-## Additional information
+## Información adicional
 
-If you have any additional information for us, use the field below.
+**Si tienes alguna información adicional para nosotros, utiliza el siguiente campo.**
 
-Thank you for submitting the form
+Gracias por enviar el formulario.
