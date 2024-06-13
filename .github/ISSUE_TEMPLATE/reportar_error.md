@@ -1,82 +1,48 @@
-# Report an issue with Immich
+---
+name: Reportar Error2
+about: Reporte errores encontrados
+title: ''
+labels: bug
+assignees: 'HOLA'
+assignees: ''
+assignees: ''
 
-This issue form is for reporting bugs only!
+---
 
-If you have a feature or enhancement request, please use the [feature request][fr] section of our [GitHub Discussions][fr].
+### Título
 
-[fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
+[Reemplaza con un título descriptivo del problema]
 
-## The bug
+---
 
-Describe the issue you are experiencing here, to communicate to the maintainers. Tell us what you were trying to do and what happened.
+### Descripción
 
-Provide a clear and concise description of what the problem is.
+[Describe el problema detalladamente]
 
-## Environment
+---
 
-**The OS that Immich Server is running on**
+### Información del Reportador
 
-*Required*
+**Nombre:**
+[Reemplaza con tu nombre]
 
-*Placeholder: Ubuntu 22.10, Debian, Arch...etc*
+**Apellido:**
+[Reemplaza con tu apellido]
 
-**Version of Immich Server**
+---
 
-*Required*
-
-*Placeholder: v1.0.0*
-
-**Version of Immich Mobile App**
-
-*Required*
-
-*Placeholder: v1.0.0*
-
-**Platform with the issue**
-
-*Required*
-
-- Server
-- Web
-- Mobile
-
-## Your docker-compose.yml content
-
-*Required*
-
-Render as: YAML
-
-## Your .env content
-
-*Required*
-
-Please provide the redacted .env content of your setup
-
-Render as: Shell
-
-## Reproduction steps
-
-*Required*
-
-How do you trigger this bug? Please walk us through it step by step.
+### Pasos para reproducir el problema
 
 1. 
 2. 
 3. 
-...
 
-Render as: bash
+---
 
-## Relevant log output
+### Información adicional
 
-*Optional*
+[Incluye cualquier información adicional relevante aquí]
 
-Please copy and paste any relevant logs below. (code formatting is enabled, no need for backticks)
+---
 
-Render as: shell
-
-## Additional information
-
-If you have any additional information for us, use the field below.
-
-Thank you for submitting the form
+Gracias por contribuir al mejoramiento de nuestra aplicación!
