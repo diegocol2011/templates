@@ -1,15 +1,6 @@
 name: Report an issue with Immich
 description: Report an issue with Immich
 body:
-  - type: markdown
-    attributes:
-      value: |
-        This issue form is for reporting bugs only!
-
-        If you have a feature or enhancement request, please use the [feature request][fr] section of our [GitHub Discussions][fr].
-
-        [fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
-
   - type: textarea
     validations:
       required: true
