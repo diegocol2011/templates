@@ -5,12 +5,24 @@ body:
     validations:
       required: true
     attributes:
-      label: The bug
+      label: Describa el error
       description: >-
-        Describe the issue you are experiencing here, to communicate to the
-        maintainers. Tell us what you were trying to do and what happened.
-
-        Provide a clear and concise description of what the problem is.
+        Por favor describa claramente el error encontrado.
+        
+  - type: textarea
+    id: repro
+    attributes:
+      label: Como replicar el error
+      description: Paso a paso para reproducir el error
+      value: |
+        1. Ir a '...'
+        2. Haga clic en '....'
+        3. Desplácese hacia abajo hasta '....'
+        4. Ver error
+        ...
+      render: bash
+    validations:
+      required: true 
 
   - type: markdown
     attributes:
@@ -63,20 +75,6 @@ body:
       label: Your .env content
       description: Please provide the redacted .env content of your setup
       render: Shell
-
-  - type: textarea
-    id: repro
-    attributes:
-      label: Reproduction steps
-      description: "How do you trigger this bug? Please walk us through it step by step."
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
 
   - type: textarea
     id: logs
