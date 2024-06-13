@@ -1,5 +1,5 @@
 ---
-name: Reportar Error2
+name: Reportar Error
 about: Reporte errores encontrados
 title: ''
 labels: error
@@ -12,11 +12,13 @@ Este formulario es para reportar errores únicamente. Si tienes una solicitud de
 
 [fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
 
-## Detalles del problema
+### Detalles del problema
 
 **Describe el problema que estás experimentando aquí para comunicarlo a los mantenedores. Cuéntanos qué estabas intentando hacer y qué sucedió.**
 
-## Entorno
+---
+
+### Entorno
 
 **Sistema Operativo donde se ejecuta el Servidor de Immich**
 
@@ -44,13 +46,17 @@ Este formulario es para reportar errores únicamente. Si tienes una solicitud de
 - Web
 - Móvil
 
-## Contenido de tu docker-compose.yml
+---
+
+### Contenido de tu docker-compose.yml
 
 *Requerido*
 
 Renderizado como: YAML
 
-## Contenido de tu archivo .env
+---
+
+### Contenido de tu archivo .env
 
 *Requerido*
 
@@ -58,7 +64,9 @@ Por favor proporciona el contenido redactado del archivo .env de tu configuraci�
 
 Renderizado como: Shell
 
-## Pasos de reproducción
+---
+
+### Pasos de reproducción
 
 *Requerido*
 
@@ -71,7 +79,9 @@ Renderizado como: Shell
 
 Renderizado como: bash
 
-## Salida relevante del registro
+---
+
+### Salida relevante del registro
 
 *Opcional*
 
@@ -79,8 +89,12 @@ Por favor copia y pega cualquier salida de registro relevante a continuación. (
 
 Renderizado como: shell
 
-## Información adicional
+---
+
+### Información adicional
 
 **Si tienes alguna información adicional para nosotros, utiliza el siguiente campo.**
+
+---
 
 Gracias por enviar el formulario.
