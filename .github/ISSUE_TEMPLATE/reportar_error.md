@@ -1,9 +1,10 @@
 ---
-name: Reportar Error
+name: Reportar Error2
 about: Reporte errores encontrados
 title: ''
 labels: error
 assignees: ''
+---
 
 ## Descripción del problema
 
