@@ -1,81 +1,41 @@
----
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: documentation
-assignees: ''
+# Prerequisites
 
----
+Please answer the following questions for yourself before submitting an issue. **YOU MAY DELETE THE PREREQUISITES SECTION.**
 
-name: Reportar error prueba
-description: Reportar error
-body:
-  - type: textarea
-    validations:
-      required: true
-    attributes:
-      label: Describa el error
-      description: >-
-        Por favor describa claramente el error encontrado.
-        Si tiene, por favor adicione capturas de pantalla.
+- [ ] I am running the latest version
+- [ ] I checked the documentation and found no answer
+- [ ] I checked to make sure that this issue has not already been filed
+- [ ] I'm reporting the issue to the correct repository (for multi-repository projects)
 
-  - type: textarea
-    id: repro
-    attributes:
-      label: Como replicar el error
-      description: Paso a paso para reproducir el error
-      value: |
-        1. Ir a '...'
-        2. Haga clic en '....'
-        3. Desplácese hacia abajo hasta '....'
-        4. Ver error
-        ...
-      render: bash
-    validations:
-      required: true
+# Expected Behavior
 
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Comportamiento esperado
-      description: Describa lo que esperaba que ocurriera.
+Please describe the behavior you are expecting
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Entorno de ejecución    
+# Current Behavior
 
-  - type: input
-    id: version
-    validations:
-      required: true
-    attributes:
-      label: Sistema operativo
-      placeholder: Windows, Linux
+What is the current behavior?
 
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Navegador
-      placeholder: chrome, safari, firefox
+# Failure Information (for bugs)
 
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Version del aplicativo
-      placeholder: v1.0.0
+Please help provide information about the failure if this is a bug. If it is not a bug, please remove the rest of this template.
 
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Otros detalles relevantes
+## Steps to Reproduce
 
-  - type: textarea
-    attributes:
-      label: Informacion adicional
-      description: >
-        Añada cualquier otra información relevante.
+Please provide detailed steps for reproducing the issue.
+
+1. step 1
+2. step 2
+3. you get it...
+
+## Context
+
+Please provide any relevant information about your setup. This is important in case the issue is not reproducible except for under certain conditions.
+
+* Firmware Version:
+* Operating System:
+* SDK version:
+* Toolchain version:
+
+## Failure Logs
+
+Please include any relevant log snippets or files here.
