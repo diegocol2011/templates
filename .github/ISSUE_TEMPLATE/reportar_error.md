@@ -1,46 +1,41 @@
----
-name: Reportar Error2
-about: Reporte errores encontrados
-title: ''
-labels: bug
-assignees: ''
+# Prerequisites
 
----
+Please answer the following questions for yourself before submitting an issue. **YOU MAY DELETE THE PREREQUISITES SECTION.**
 
-### Título
+- [ ] I am running the latest version
+- [ ] I checked the documentation and found no answer
+- [ ] I checked to make sure that this issue has not already been filed
+- [ ] I'm reporting the issue to the correct repository (for multi-repository projects)
 
-[Reemplaza con un título descriptivo del problema]
+# Expected Behavior
 
----
+Please describe the behavior you are expecting
 
-### Descripción
+# Current Behavior
 
-[Describe el problema detalladamente]
+What is the current behavior?
 
----
+# Failure Information (for bugs)
 
-### Información del Reportador
+Please help provide information about the failure if this is a bug. If it is not a bug, please remove the rest of this template.
 
-**Nombre:**
-[Reemplaza con tu nombre]
+## Steps to Reproduce
 
-**Apellido:**
-[Reemplaza con tu apellido]
+Please provide detailed steps for reproducing the issue.
 
----
+1. step 1
+2. step 2
+3. you get it...
 
-### Pasos para reproducir el problema
+## Context
 
-1. 
-2. 
-3. 
+Please provide any relevant information about your setup. This is important in case the issue is not reproducible except for under certain conditions.
 
----
+* Firmware Version:
+* Operating System:
+* SDK version:
+* Toolchain version:
 
-### Información adicional
+## Failure Logs
 
-[Incluye cualquier información adicional relevante aquí]
-
----
-
-Gracias por contribuir al mejoramiento de nuestra aplicación!
+Please include any relevant log snippets or files here.
