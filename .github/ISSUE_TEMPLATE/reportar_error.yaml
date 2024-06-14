@@ -64,10 +64,6 @@ body:
     attributes:
       label: Otros detalles relevantes
 
-  - type: markdown
-    attributes:
-      value: |
-
   - type: textarea
     attributes:
       label: Informacion adicional
