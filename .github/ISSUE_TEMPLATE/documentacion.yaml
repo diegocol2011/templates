@@ -1,4 +1,4 @@
-name: Documentación
+name: Actualizar documentación
 description: Descripción clara y detalla de la solicitud
 body:
   - type: textarea
