@@ -1,5 +1,5 @@
 ---
-name: Reportar Error
+name: Reportar Error - Guia
 about: Reporte errores encontrados
 title: ''
 labels: error
