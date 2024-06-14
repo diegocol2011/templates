@@ -1,3 +1,5 @@
+name: Reportar vulnerabilidad de seguridad
+description: Describa claramente el problema de seguridad encontrado
 body:
 - type: textarea
   id: repro
