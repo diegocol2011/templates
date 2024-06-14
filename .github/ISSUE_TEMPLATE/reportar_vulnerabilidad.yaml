@@ -1,0 +1,70 @@
+name: Reportar vulnerabilidad de seguridad
+description: Describa claramente el problema de seguridad encontrado
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: La vulnerabilidad de seguridad
+      description: >-
+        Describa claramente el problema de seguridad encontrado
+        Si tiene, por favor adicione capturas de pantalla.
+
+  - type: textarea
+    attributes:
+      label: Pasos para reproducir
+      description: Paso a paso para reproducir el problema
+      value: |
+        1. Ir a '...'
+        2. Haga clic en '....'
+        3. Desplácese hacia abajo hasta '....'
+        4. Ver problema de seguridad
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Impacto
+      description: Describa el impacto potencial de este problema de seguridad
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Entorno de ejecución    
+
+  - type: input
+    id: version
+    validations:
+      required: true
+    attributes:
+      label: Sistema operativo
+      placeholder: Windows, Linux
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Navegador
+      placeholder: chrome, safari, firefox
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Version del aplicativo
+      placeholder: v1.0.0
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Otros detalles relevantes
+
+  - type: textarea
+    attributes:
+      label: Informacion adicional
+      description: >
+        Añada cualquier otra información relevante.
