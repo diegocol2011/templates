@@ -1,0 +1,39 @@
+name: Solicitud de Nueva Funcionalidad o actualización
+description: Describa de forma clara la nueva funcionalidad o actualización.
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Nueva funcionalidad o actualización.
+      description: >-
+        Describa la nueva funcionalidad o actualización.
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Porque la considera necesaria?
+      description: Describa el porque considera necesaria esta nueva funcionalidad o actualización
+      render: bash
+    validations:
+      required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Impacto esperado
+      description: Describa cómo esta funcionalidad o actualizacion beneficiará a los usuarios.
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Alternativas consideradas
+      description: Describa cualquier alternativa que haya considerado.
+
+  - type: textarea
+    attributes:
+      label: Informacion adicional
+      description: >
+        Añada cualquier otra información relevante.
