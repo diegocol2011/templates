@@ -1,4 +1,4 @@
-name: Reportar vulnerabilidad de seguridad
+name: Reportar vulnerabilidad
 description: Describa claramente el problema de seguridad encontrado
 body:
 - type: textarea
