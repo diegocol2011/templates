@@ -69,7 +69,3 @@ body:
       label: Informacion adicional
       description: >
         Añada cualquier otra información relevante.
-
-  - type: markdown
-    attributes:
-      value: Gracias por completar el formulario
