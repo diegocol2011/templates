@@ -7,8 +7,8 @@ body:
     attributes:
       label: La vulnerabilidad de seguridad
       description: >-
-        Describa claramente el problema de seguridad encontrado
-        Si tiene, por favor adicione capturas de pantalla.
+        Describa claramente el problema de seguridad encontrado.
+        Puede adicionar capturas de pantalla.
 
   - type: textarea
     attributes:
