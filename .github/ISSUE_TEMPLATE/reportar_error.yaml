@@ -21,7 +21,6 @@ body:
         3. Desplácese hacia abajo hasta '....'
         4. Ver error
         ...
-      render: bash
     validations:
       required: true
 
