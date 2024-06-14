@@ -7,4 +7,75 @@ assignees: ''
 
 ---
 
+name: Reportar error prueba
+description: Reportar error
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Describa el error
+      description: >-
+        Por favor describa claramente el error encontrado.
+        Si tiene, por favor adicione capturas de pantalla.
 
+  - type: textarea
+    id: repro
+    attributes:
+      label: Como replicar el error
+      description: Paso a paso para reproducir el error
+      value: |
+        1. Ir a '...'
+        2. Haga clic en '....'
+        3. Desplácese hacia abajo hasta '....'
+        4. Ver error
+        ...
+      render: bash
+    validations:
+      required: true
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Comportamiento esperado
+      description: Describa lo que esperaba que ocurriera.
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Entorno de ejecución    
+
+  - type: input
+    id: version
+    validations:
+      required: true
+    attributes:
+      label: Sistema operativo
+      placeholder: Windows, Linux
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Navegador
+      placeholder: chrome, safari, firefox
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Version del aplicativo
+      placeholder: v1.0.0
+
+  - type: input
+    validations:
+      required: true
+    attributes:
+      label: Otros detalles relevantes
+
+  - type: textarea
+    attributes:
+      label: Informacion adicional
+      description: >
+        Añada cualquier otra información relevante.
