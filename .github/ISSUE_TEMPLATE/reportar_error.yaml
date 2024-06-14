@@ -38,19 +38,11 @@ body:
         ## Entorno de ejecución    
 
   - type: input
-    id: version
     validations:
       required: true
     attributes:
-      label: Sistema operativo
-      placeholder: Windows, Linux
-
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Navegador
-      placeholder: chrome, safari, firefox
+      label: Ambiente
+      placeholder: dev, qa, pdn
 
   - type: input
     validations:
@@ -58,12 +50,6 @@ body:
     attributes:
       label: Version del aplicativo
       placeholder: v1.0.0
-
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Otros detalles relevantes
 
   - type: textarea
     attributes:
