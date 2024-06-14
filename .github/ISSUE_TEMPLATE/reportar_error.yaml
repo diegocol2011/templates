@@ -1,5 +1,5 @@
-name: Report an issue with Immich
-description: Report an issue with Immich
+name: Reportar error3
+description: Reportar error
 body:
   - type: textarea
     validations:
@@ -8,7 +8,7 @@ body:
       label: Describa el error
       description: >-
         Por favor describa claramente el error encontrado.
-        
+
   - type: textarea
     id: repro
     attributes:
@@ -22,7 +22,7 @@ body:
         ...
       render: bash
     validations:
-      required: true 
+      required: true
 
   - type: input
     validations:
@@ -42,7 +42,7 @@ body:
       required: true
     attributes:
       label: Sistema operativo
-      placeholder: Windows, Linux 
+      placeholder: Windows, Linux
 
   - type: input
     validations:
@@ -51,14 +51,14 @@ body:
       label: Navegador
       placeholder: chrome, safari, firefox
 
-   - type: input
+  - type: input
     validations:
       required: true
     attributes:
       label: Version del aplicativo
       placeholder: v1.0.0
 
-    - type: input
+  - type: input
     validations:
       required: true
     attributes:
