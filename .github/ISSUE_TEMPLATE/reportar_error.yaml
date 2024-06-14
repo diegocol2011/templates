@@ -1,4 +1,4 @@
-name: Reportar error3
+name: Reportar error
 description: Reportar error
 body:
   - type: textarea
