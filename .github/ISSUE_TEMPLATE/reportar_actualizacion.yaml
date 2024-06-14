@@ -1,4 +1,4 @@
-name: Solicitud de Nueva Funcionalidad o actualización
+name: Solicitud de nueva funcionalidad o actualización
 description: Describa de forma clara la nueva funcionalidad o actualización.
 body:
   - type: textarea
