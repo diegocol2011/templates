@@ -8,7 +8,7 @@ body:
       label: Describa el error
       description: >-
         Por favor describa claramente el error encontrado.
-        Si tiene, por favor adicione capturas de pantalla.
+        Puede adicionar capturas de pantalla.
 
   - type: textarea
     id: repro
