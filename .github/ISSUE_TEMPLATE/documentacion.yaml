@@ -1,0 +1,17 @@
+name: Documentación
+description: Descripción clara y detalla de la solicitud
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Sección de la documentación afectada
+      description: >-
+        Describa la sección actual de la documentación que necesita ser cambiada o actualizada.
+        Si tiene, por favor adicione capturas de pantalla.
+
+  - type: textarea
+    attributes:
+      label: Informacion adicional
+      description: >
+        Añada cualquier otra información relevante.
