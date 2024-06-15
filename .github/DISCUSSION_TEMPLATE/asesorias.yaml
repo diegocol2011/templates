@@ -2,18 +2,9 @@ title: "[question] <feature-name-goes-here>"
 labels: ["question"]
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please use this form to request new feature for Immich
-
   - type: input
     attributes:
       label: Nombre del componente
-
-  - type: input
-    attributes:
-      label: Titulo   
 
   - type: textarea
     attributes:
