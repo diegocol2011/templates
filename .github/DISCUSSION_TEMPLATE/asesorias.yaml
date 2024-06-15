@@ -7,26 +7,106 @@ body:
       value: |
         Please use this form to request new feature for Immich
 
-  - type: checkboxes
+  - type: input
     attributes:
-      label: I have searched the existing feature requests to make sure this is not a duplicate request.
-      options:
-        - label: "Yes"
-          required: true
+      label: Nombre del componente
+
+  - type: input
+    attributes:
+      label: Titulo   
 
   - type: textarea
-    id: feature
     attributes:
-      label: The feature
+      label: Descripción de la Solicitud
+    validations:
+      required: true    
+  
+  - type: input
+    attributes:
+      label: Ambiente
+      placeholder: dev, qa, pdn
+
+  - type: input
+    attributes:
+      label: Versión del aplicativo
+      placeholder: v.1.0.o
+  
+  - type: textarea
+    attributes:
+      label: Contexto adicional
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
+    attributes:
+      label: Comportamiento esperado
     validations:
       required: true
+
+  - type: input
     attributes:
-      label: Platform
-      options:
-        - label: Server
-        - label: Web
-        - label: Mobile
+      label: EVC
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Célula
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Nombre del solicitante
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Célula galatea
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Detalle respuesta
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Diagnóstico de Cierre
+    validations:
+      required: true
+
+  - type: date
+    attributes:
+      label: Fecha de cierre
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Responsable
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Capa
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Task
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Datos adjuntos
+    validations:
+      required: true
+
+      
