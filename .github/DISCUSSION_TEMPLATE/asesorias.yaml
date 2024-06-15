@@ -79,7 +79,7 @@ body:
     validations:
       required: true
 
-  - type: date
+  - type: input
     attributes:
       label: Fecha de cierre
     validations:
