@@ -5,13 +5,7 @@ body:
     validations:
       required: true
     attributes:
-      label: Sección de la documentación afectada
+      label: Descripción 
       description: >-
-        Describa la sección actual de la documentación que necesita ser cambiada o actualizada.
-        Si tiene, por favor adicione capturas de pantalla.
-
-  - type: textarea
-    attributes:
-      label: Informacion adicional
-      description: >
-        Añada cualquier otra información relevante.
+        Describa de manera clara y concisa la propuesta de actualización de documentación, explica por qué es necesaria esta actualizacion y que beneficios traera. 
+        Puede adicionar capturas de pantalla.
