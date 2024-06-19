@@ -14,7 +14,7 @@ body:
     id: repro
     attributes:
       label: ¿Por qué la considera necesaria?
-      description: Describa la razón por la que considera necesaria esta nueva funcionalidad o actualización
+      description: Explique la razón por la cual considera necesaria esta nueva funcionalidad o actualización.
     validations:
       required: true
 
