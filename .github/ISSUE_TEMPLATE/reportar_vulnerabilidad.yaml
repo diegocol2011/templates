@@ -1,5 +1,5 @@
 name: Reportar una vulnerabilidad de seguridad
-description: Describa claramente el problema de seguridad encontrado
+description: Describa claramente la vulnerabilidad de seguridad encontrada.
 body:
   - type: textarea
     validations:
