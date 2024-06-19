@@ -1,5 +1,5 @@
 name: Solicitud de mejora
-description: El template de solicitud de mejora se emplea para formalizar y documentar propuestas que buscan mejorar características existentes o proponer nuevas funcionalidades.
+description: La solicitud de mejora se emplea para formalizar y documentar propuestas que buscan mejorar características existentes o proponer nuevas funcionalidades.
 body:
   - type: textarea
     validations:
