@@ -7,7 +7,7 @@ body:
     attributes:
       label: La vulnerabilidad de seguridad
       description: >-
-        Explique el detalle de la vulnerabilidad de seguridad, el impacto que tendría en el componente y, en caso de tener una solucion propuesta describela.
+        Detalle la vulnerabilidad de seguridad identificada, incluyendo su impacto potencial en el componente afectado. Además, si existe, describa la solución propuesta para mitigar esta vulnerabilidad.
         Puede adicionar capturas de pantalla.
 
   - type: markdown
