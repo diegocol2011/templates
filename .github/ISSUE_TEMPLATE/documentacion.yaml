@@ -1,5 +1,5 @@
-name: Actualizar documentación
-description: Descripción clara y detalla de la solicitud
+name: Mejora de documentación
+description: Con la solicitud de mejora de documentación puede contribuir agregando o modificando documentación al componente.
 body:
   - type: textarea
     validations:
