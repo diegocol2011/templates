@@ -42,9 +42,3 @@ body:
     attributes:
       label: Version del componente
       placeholder: v1.0.0
-
-  - type: textarea
-    attributes:
-      label: Informacion adicional
-      description: >
-        Añada cualquier otra información relevante.
