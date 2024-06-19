@@ -7,7 +7,7 @@ body:
     attributes:
       label: La vulnerabilidad de seguridad
       description: >-
-        Explique el detalle de la vulnerabilidad de seguridad y el impacto que tendría en el componente.
+        Explique el detalle de la vulnerabilidad de seguridad, el impacto que tendría en el componente y, en caso de tener una solucion propuesta describela.
         Puede adicionar capturas de pantalla.
 
   - type: markdown
