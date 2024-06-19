@@ -7,28 +7,8 @@ body:
     attributes:
       label: La vulnerabilidad de seguridad
       description: >-
-        Describa claramente el problema de seguridad encontrado.
+        Explique el detalle de la vulnerabilidad de seguridad y el impacto que tendría en el componente.
         Puede adicionar capturas de pantalla.
-
-  - type: textarea
-    attributes:
-      label: Pasos para reproducir
-      description: Paso a paso para reproducir el problema
-      value: |
-        1. Ir a '...'
-        2. Haga clic en '....'
-        3. Desplácese hacia abajo hasta '....'
-        4. Ver problema de seguridad
-        ...
-    validations:
-      required: true
-
-  - type: textarea
-    validations:
-      required: true
-    attributes:
-      label: Impacto
-      description: Describa el impacto potencial de este problema de seguridad
 
   - type: markdown
     attributes:
