@@ -19,5 +19,5 @@ body:
     validations:
       required: true
     attributes:
-      label: Version del componente afectado
+      label: Versión del componente afectado
       placeholder: v1.0.0
