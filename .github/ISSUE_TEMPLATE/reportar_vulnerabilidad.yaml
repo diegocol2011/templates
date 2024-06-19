@@ -19,14 +19,7 @@ body:
     validations:
       required: true
     attributes:
-      label: Ambiente
-      placeholder: dev, qa, pdn
-
-  - type: input
-    validations:
-      required: true
-    attributes:
-      label: Version del aplicativo
+      label: Version del componente afectado
       placeholder: v1.0.0
 
   - type: textarea
