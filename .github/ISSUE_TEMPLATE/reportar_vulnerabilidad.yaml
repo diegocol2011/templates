@@ -10,11 +10,6 @@ body:
         Detalle la vulnerabilidad de seguridad identificada, incluyendo su impacto potencial en el componente afectado. Además, si existe, describa la solución propuesta para mitigar esta vulnerabilidad.
         Puede adicionar capturas de pantalla.
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Entorno de ejecución    
-
   - type: input
     validations:
       required: true
