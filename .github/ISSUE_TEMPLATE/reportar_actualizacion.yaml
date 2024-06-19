@@ -17,10 +17,3 @@ body:
       description: Explique la razón por la cual considera necesaria esta nueva funcionalidad o actualización.
     validations:
       required: true
-
-  - type: textarea
-    validations:
-      required: true
-    attributes:
-      label: Impacto esperado
-      description: Describa cómo esta funcionalidad o actualizacion beneficiará a los usuarios.
