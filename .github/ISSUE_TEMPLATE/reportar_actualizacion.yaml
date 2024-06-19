@@ -13,8 +13,8 @@ body:
   - type: textarea
     id: repro
     attributes:
-      label: Porque la considera necesaria?
-      description: Describa el porque considera necesaria esta nueva funcionalidad o actualización
+      label: ¿Por qué la considera necesaria?
+      description: Describa la razón por la que considera necesaria esta nueva funcionalidad o actualización
     validations:
       required: true
 
