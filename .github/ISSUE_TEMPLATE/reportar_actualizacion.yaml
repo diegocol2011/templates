@@ -1,4 +1,4 @@
-name: Solicitud de nueva funcionalidad o actualización
+name: Solicitud de mejora
 description: Describa de forma clara la nueva funcionalidad o actualización.
 body:
   - type: textarea
@@ -7,7 +7,7 @@ body:
     attributes:
       label: Nueva funcionalidad o actualización.
       description: >-
-        Describa la nueva funcionalidad o actualización.
+        Describa la nueva funcionalidad o actualización. Puede adicionar capturas de pantalla.
 
   - type: textarea
     id: repro
@@ -23,16 +23,3 @@ body:
     attributes:
       label: Impacto esperado
       description: Describa cómo esta funcionalidad o actualizacion beneficiará a los usuarios.
-
-  - type: textarea
-    validations:
-      required: true
-    attributes:
-      label: Alternativas consideradas
-      description: Describa cualquier alternativa que haya considerado.
-
-  - type: textarea
-    attributes:
-      label: Informacion adicional
-      description: >
-        Añada cualquier otra información relevante.
