@@ -1,5 +1,6 @@
 name: Reportar error
 description: Reportar error
+about: sobre
 labels: ["bug"]
 body:
   - type: textarea
