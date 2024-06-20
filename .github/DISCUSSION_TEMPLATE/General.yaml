@@ -1,0 +1,10 @@
+#title: "[question] <feature-name-goes-here>"
+labels: ["question"]
+
+body:
+  - type: textarea
+    attributes:
+      label: Descripción de la Solicitud
+    validations:
+      required: true    
+  
