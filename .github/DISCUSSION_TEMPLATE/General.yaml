@@ -1,55 +1,63 @@
-#title: "[General] "
-labels: ["General Introduction"]
+name: General Discussion
+description: Start a new discussion topic
+title: ''
+labels: discussion
+assignees: ''
+
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
+        ## Topic
+        Describe the main topic of your discussion.
+
   - type: textarea
-    id: improvements
+    id: topic
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
-      value: |
-        1.
-        2.
-        3.
-        ...
-      render: bash
-    validations:
-      required: true
+      label: Topic
+      description: Provide a clear and concise topic for the discussion.
+      placeholder: "Enter the main topic of your discussion here"
+      value: ""
+
   - type: markdown
     attributes:
       value: |
-        ## Markdown header
-        And some more markdown
-  - type: input
-    id: has-id
+        ## Details
+        Provide additional details or context about the topic. This can include background information, related issues, or relevant examples.
+
+  - type: textarea
+    id: details
     attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
-  - type: dropdown
-    id: download
-    attributes:
-      label: Which area of this project could be most improved?
-      options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Check that box!
-      options:
-        - label: This one!
-          required: true
-        - label: I won't stop you if you check this one, too
+      label: Details
+      description: Provide detailed information about the discussion topic.
+      placeholder: "Enter additional details here"
+      value: ""
+
   - type: markdown
     attributes:
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        ## Questions and Considerations
+        - List any questions you have regarding the topic.
+        - Add any considerations or points of discussion.
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions and Considerations
+      description: List any questions or considerations related to the topic.
+      placeholder: "Enter questions and considerations here"
+      value: ""
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Additional Context
+        Add any other context or screenshots that might help others understand your discussion topic.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Provide any other context or screenshots.
+      placeholder: "Enter additional context here"
+      value: ""
