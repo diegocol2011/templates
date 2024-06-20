@@ -1,6 +1,6 @@
 name: Reportar error
-about: sobre
-description: Reportar error
+description: |
+  Reportar error
 labels: ["bug"]
 body:
   - type: textarea
