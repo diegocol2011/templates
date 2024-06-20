@@ -1,7 +1,7 @@
 ---
 name: Reportar Error - Guia
 about: Reporte errores encontrados
-title: ''
+title: prueba
 labels: bug
 assignees: ''
 
