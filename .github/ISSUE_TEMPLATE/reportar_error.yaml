@@ -7,7 +7,7 @@ body:
       required: true
     attributes:
       label: Describa el error
-      description: >-
+      description: >
         Por favor describa claramente el error encontrado y su comportamiento esperado.
         Puede adicionar capturas de pantalla.
 
