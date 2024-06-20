@@ -1,9 +1,9 @@
 ---
 name: Reportar Error - Guia
 about: Reporte errores encontrados
-title: ''
+title: Titulo
 labels: bug
-assignees: ''
+assignees: Descripcion
 
 ---
 
