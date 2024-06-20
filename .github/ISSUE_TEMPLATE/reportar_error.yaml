@@ -1,5 +1,5 @@
 name: Reportar error
-description: Reportar error >
+description: Reportar error >-
 labels: ["bug"]
 body:
   - type: textarea
