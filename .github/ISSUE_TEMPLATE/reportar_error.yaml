@@ -1,7 +1,7 @@
 name: Reportar error
 description: |
   Reportar error.
-  
+  hola
 labels: ["bug"]
 body:
   - type: textarea
