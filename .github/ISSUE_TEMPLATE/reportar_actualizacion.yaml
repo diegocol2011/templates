@@ -10,13 +10,13 @@ body:
       description: >-
         Describa la nueva funcionalidad o actualización. Puede adicionar capturas de pantalla.
 
-  - type: textarea
+  - type: input
     attributes:
       label: Fecha aproximada de la mejora
       description: >-
         Indique la fecha aproximada de cuando requiere esta nueva implementación.
 
-  - type: textarea
+  - type: input
     validations:
       required: true
     attributes:
