@@ -1,5 +1,6 @@
 name: Mejora de documentación
 description: Con la solicitud de mejora de documentación puede contribuir agregando o modificando documentación al componente.
+labels: ["documentation"]
 body:
   - type: textarea
     validations:
