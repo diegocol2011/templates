@@ -1,0 +1,12 @@
+body:
+  - type: input
+    attributes:
+      label: Iniciar una asesoria
+    validations:
+      required: true   
+
+  - type: input
+    attributes:
+      label: Nombre del equipo
+      placeholder: Nombre del equipo que reporta la asesoria
+
