@@ -8,5 +8,5 @@ body:
   - type: input
     attributes:
       label: Nombre del equipo
-      placeholder: Nombre del equipo que reporta la asesoria
+      description: Nombre del equipo que reporta la asesoria
 
