@@ -27,13 +27,14 @@ body:
   - type: dropdown
     attributes:
       label: EVC
+      - type: input
+          attributes:
       options:
         - Galatea
         - Distribución Digital
         - Inversiones
-        - type: input
-          attributes:
-            label: Ambiente
+        - Otra
+      label: Ambiente
     validations:
       required: true   
 
