@@ -1,5 +1,5 @@
 body:
-  - type: input
+  - type: textarea
     attributes:
       label: Iniciar una asesoria
     validations:
