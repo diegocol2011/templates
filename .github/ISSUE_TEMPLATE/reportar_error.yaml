@@ -27,8 +27,6 @@ body:
   - type: dropdown
     attributes:
       label: EVC
-      - type: input
-          attributes:
       options:
         - Galatea
         - Distribución Digital
