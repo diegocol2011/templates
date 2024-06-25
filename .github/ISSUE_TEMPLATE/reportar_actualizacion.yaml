@@ -11,6 +11,18 @@ body:
         Describa la nueva funcionalidad o actualización. Puede adicionar capturas de pantalla.
 
   - type: textarea
+    attributes:
+      label: Fecha aproximada de la mejora
+      description: >-
+        Indique la fecha aproximada de cuando requiere esta nueva implementación.
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Nombre de usuario del dueño de producto.       
+
+  - type: textarea
     id: repro
     attributes:
       label: ¿Por qué la considera necesaria?
