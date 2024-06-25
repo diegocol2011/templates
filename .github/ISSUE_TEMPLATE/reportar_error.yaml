@@ -24,6 +24,17 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    attributes:
+      label: EVC
+      options:
+        - Galatea
+        - Distribución Digital
+        - Inversiones
+        - Otra
+    validations:
+      required: true   
+
   - type: markdown
     attributes:
       value: |
