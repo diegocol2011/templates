@@ -1,12 +1,13 @@
 body:
   - type: textarea
     attributes:
-      label: Iniciar una asesoria
+      label: Por favor, describa la asesoría que necesita
     validations:
       required: true   
 
   - type: input
     attributes:
-      label: Nombre del equipo
-      description: Nombre del equipo que reporta la asesoria
+      label: Nombre del equipo que reporta la asesoria      
+    validations:
+       required: true
 
