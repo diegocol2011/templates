@@ -31,7 +31,9 @@ body:
         - Galatea
         - Distribución Digital
         - Inversiones
-        - Otra
+        - type: input
+          attributes:
+            label: Ambiente
     validations:
       required: true   
 
