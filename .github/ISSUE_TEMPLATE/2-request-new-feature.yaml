@@ -1,6 +1,7 @@
 name: Solicitud de mejora
 description: La solicitud de mejora se emplea para formalizar y documentar propuestas que buscan mejorar características existentes o proponer nuevas funcionalidades.
 title: prueba
+labels: ["bug"]
 body:
   - type: textarea
     validations:
